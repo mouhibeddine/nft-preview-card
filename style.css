@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit';
+}
+*{
+    margin: 0 22.5px;
+}
+.card {
+    height: 595px ;
+    width: 350px ;
+    border:none;
+    display: flex;
+    display: block;
+    border-radius: 16px;
+    background-color: hsl(216, 50%, 16%);
+    box-shadow: 0px 40px 12px 15px hsl(217, 51%, 10%) ;
+    
+}
+.img-space {
+    height: 300px ;
+    width: 300px ;
+    margin: 22.5px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.image{
+    border: none;
+    border-radius: 10px;
+    backface-visibility: hidden;
+    cursor: pointer;
+}
+.img-space:hover .image {
+   opacity: 0.5;
+   background-color: hsl(178, 100%, 50%);
+   
+   
+}
+.title_desc{
+    height: 100px ;
+    width: 300px ;
+    border: none ;
+    
+}
+.tt{
+    font-size:22px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    opacity: 0.8;
+    font-weight: 500;
+    margin-left: 0;
+}
+.tt:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.details {
+    height: 60.5px ;
+    width: 300px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: hsl(215, 32%, 27%) 1px solid;
+    flex-direction: row;
+    align-content: center;
+    
+}
+.sflex2 {
+    height: 80px ;
+    width: 300px ;
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    
+   
+    
+}
+p{
+    font-size:17px;
+    margin-left: 0;
+    color: hsl(215, 51%, 70%);
+    margin-top: 15px ;
+    font-weight: 300;
+    opacity: 0.7;
+
+}
+.price {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+    opacity: 0.8;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+.daysleft {
+    color: hsl(215, 51%, 70%);
+    font-weight: 500;
+    opacity: 0.8;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.sflex-item {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+.icon{
+    margin-right: 8px;
+    
+    
+}
+.creator {
+    align-self: center;
+    padding: 0;
+    margin: 0px;
+    font-size: 15px;
+    
+
+    
+}
+.avatar {
+    align-self: center;
+    border-radius: 80px;
+    border: white 1px solid;
+    margin-left:0 ;
+}
+a {
+    color: white;
+    font-weight: 400;
+    margin-left: 0;
+    text-decoration: none;
+}
+a:hover{
+    color: hsl(178, 100%, 50%);
+
+}
